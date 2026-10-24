@@ -56,3 +56,28 @@ input[type="submit"] {
     padding: .375rem 1rem;
     margin-top: 10px;
 }
+.add-link {
+    display: inline-block;
+    margin: 1rem 1rem 0 1rem;
+}
+
+.records {
+    margin: 0 1rem;
+    border-collapse: collapse;
+    width: calc(100% - 2rem);
+}
+
+.records th,
+.records td {
+    text-align: left;
+    padding: .5rem .75rem;
+    border-bottom: solid 1px lightgrey;
+}
+
+.records th {
+    background-color: #f5f5f5;
+}
+
+input[type="number"] {
+    padding: .25rem;
+}
